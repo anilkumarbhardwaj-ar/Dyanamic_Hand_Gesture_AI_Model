@@ -22,3 +22,14 @@ Used 20bn-jester dataset and taken only 6 classes from it
 1.Input: 37 frames × 63 keypoints (21 landmarks × 3)
 
 2.LSTM: 2 layers, hidden size = 128
+
+Steps 
+
+ENV PORT=5000
+
+ENV ENVIRONMENT=development
+
+RUN pip install -r requirements.txt
+
+INSTALL PYTHON3
+
